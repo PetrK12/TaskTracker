@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2SqalXSozQisGxEJ65jKgf+wdOTvoxaMTeJ6XFy8Th6zkM/Qdl8SjTA8jf4H46OB7jKU9+RbiPYC1VNVy6i/Sg==",
+  "dgSpecHash": "9DTFO3GMbpdo/bDiu9W2huVNUH1snAejlRmtRXxKNODiCx6t4xI8KZHmtW8WEEmr3FpubdJGM495uX+tWqlejA==",
   "success": true,
   "projectFilePath": "/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/TaskService.API.csproj",
   "expectedPackageFiles": [
+    "/Users/petr/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/petr/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/petr/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/petr/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/petr/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -12,7 +14,7 @@
     "/Users/petr/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.aspnetcore.openapi/7.0.4/microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "/Users/petr/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/petr/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.data.sqlclient/5.0.1/microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.0.1/microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

@@ -1,0 +1,12 @@
+version: '3.4'
+
+name: TaskTracker
+services:
+  tasksdb:
+    image: mcr.microsoft.com/azure-sql-edge
+
+  taskservice.api:
+    image: ${DOCKER_REGISTRY-}taskservice
+    build:
+      context: .
+      dockerfile: Services/TaskService/TaskService.API/Dockerfile

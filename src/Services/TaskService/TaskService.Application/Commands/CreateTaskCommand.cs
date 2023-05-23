@@ -3,7 +3,7 @@ using MediatR;
 
 namespace TaskService.Application.Commands
 {
-	public class CreateTaskCommand : IRequest
+	public class CreateTaskCommand : IRequest<bool>
 	{
         public string Name { get; set; }
         public string Description { get; set; }

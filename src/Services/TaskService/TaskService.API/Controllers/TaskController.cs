@@ -17,11 +17,12 @@ namespace TaskService.API.Controllers
 			_mediator = mediator;
 		}
 
+		[HttpPost]
 		public async Task<ActionResult<bool>> CreateTask([FromBody] CreateTaskCommand cmd)
 		{
             await _mediator.Send(cmd);
 
-			return NoContent();
+			return Ok();
 		}
 	}
 }

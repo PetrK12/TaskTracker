@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "6b2sn7KRbCC3s/uAd67ap6BHe/tars2NMPxnxzioFhzIeo5mOQTMyH3V7a08vidT4KeDtjtS0L7Ff4DzOuFxIA==",
+  "dgSpecHash": "Z+lCgfOgE+XRR4LOGNsox5A35ZzOq7nl07DGzR33L0E9qinZ6KiOkdbjb0PeFdgkRNENVh36kN+jNO0vC1XEGw==",
   "success": true,
   "projectFilePath": "/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/TaskService.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/Users/petr/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/petr/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/petr/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/petr/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/petr/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "/Users/petr/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/petr/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.data.sqlclient/5.0.1/microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.0.1/microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

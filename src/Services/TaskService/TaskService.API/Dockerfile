@@ -6,13 +6,13 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["../Services/TaskService/TaskService.API/TaskService.API.csproj", "../Services/TaskService/TaskService.API/"]
-COPY ["../Services/TaskService/TaskService.Application/TaskService.Application.csproj", "../Services/TaskService/TaskService.Application/"]
-COPY ["../Services/TaskService/TaskService.Infrastructure/TaskService.Infrastructure.csproj", "../Services/TaskService/TaskService.Infrastructure/"]
-COPY ["../Services/TaskService/TaskService.Domain/TaskService.Domain.csproj", "../Services/TaskService/TaskService.Domain/"]
-RUN dotnet restore "../Services/TaskService/TaskService.API/TaskService.API.csproj"
+COPY ["Services/TaskService/TaskService.API/TaskService.API.csproj", "Services/TaskService/TaskService.API/"]
+COPY ["Services/TaskService/TaskService.Application/TaskService.Application.csproj", "Services/TaskService/TaskService.Application/"]
+COPY ["Services/TaskService/TaskService.Domain/TaskService.Domain.csproj", "Services/TaskService/TaskService.Domain/"]
+COPY ["Services/TaskService/TaskService.Infrastructure/TaskService.Infrastructure.csproj", "Services/TaskService/TaskService.Infrastructure/"]
+RUN dotnet restore "Services/TaskService/TaskService.API/TaskService.API.csproj"
 COPY . .
-WORKDIR "/src/../Services/TaskService/TaskService.API"
+WORKDIR "/src/Services/TaskService/TaskService.API"
 RUN dotnet build "TaskService.API.csproj" -c Release -o /app/build
 
 FROM build AS publish

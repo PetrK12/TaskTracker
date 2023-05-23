@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{03AD7E8D-7A05-4F56-9B8E-B91F85CF65A7}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Services.TaskService.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Services/TaskService/TaskService.API/appsettings.json">
+    <Files>
+      <File FileName="../Services/TaskService/TaskService.Infrastructure/Repositories/EntryRepository.cs" />
+      <File FileName="../Services/TaskService/TaskService.Infrastructure/AppDbContext/EntryContext.cs" />
+      <File FileName="../Services/TaskService/TaskService.Infrastructure/Extensions/ServiceRegistration.cs" />
+      <File FileName="../Services/TaskService/TaskService.API/Program.cs" Line="22" Column="1" />
+      <File FileName="../Services/TaskService/TaskService.API/Dockerfile" />
+      <File FileName="docker-compose.yml" Line="5" Column="44" />
+      <File FileName="docker-compose.override.yml" Line="17" Column="20" />
+      <File FileName="../Services/TaskService/TaskService.API/Properties/launchSettings.json" />
+      <File FileName="../Services/TaskService/TaskService.API/appsettings.json" Line="10" Column="62" />
+      <File FileName="../Services/TaskService/TaskService.API/Migrations/20230522173448_Initial.cs" />
+      <File FileName="../Services/TaskService/TaskService.Domain/DomainModel/Entry.cs" />
+      <File FileName="../Services/TaskService/TaskService.API/Migrations/20230522174104_Initial3.cs" />
+      <File FileName="../Services/TaskService/TaskService.API/Migrations/EntryContextModelSnapshot.cs" />
+      <File FileName="../Services/TaskService/TaskService.Application/Commands/CreateTaskCommand.cs" />
+      <File FileName="../Services/TaskService/TaskService.Application/Commands/CreateTaskCommandHandler.cs" />
+      <File FileName="../Services/TaskService/TaskService.API/Controllers/TaskController.cs" Line="26" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TaskTracker" expanded="True">
+            <Node name="Services" expanded="True" />
+            <Node name="docker-compose" expanded="True">
+              <Node name="docker-compose.yml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/Controllers/TaskController.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

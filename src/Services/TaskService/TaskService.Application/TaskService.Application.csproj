@@ -10,11 +10,13 @@
     <None Remove="Extensions\" />
     <None Remove="Commands\" />
     <None Remove="Queries\" />
+    <None Remove="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />
     <Folder Include="Commands\" />
     <Folder Include="Queries\" />
+    <Folder Include="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
@@ -24,8 +26,11 @@
     </PackageReference>
     <PackageReference Include="MediatR" Version="12.0.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TaskService.Domain\TaskService.Domain.csproj" />
+    <ProjectReference Include="..\TaskService.Infrastructure\TaskService.Infrastructure.csproj" />
   </ItemGroup>
 </Project>

@@ -5,15 +5,15 @@ namespace TaskService.Domain.Interfaces
 {
 	public interface IEntryRepository
 	{
-		public Task<bool> CreateTask(Entry task);
+		public Task<bool> CreateTaskAsync(Entry task);
 
-		public Task<bool> UpdateTask(Entry task);
+		public Task<bool> UpdateTaskAsync(Entry task);
 
-		public Task<bool> DeleteTask(Entry task);
+		public Task<bool> DeleteTaskAsync(Entry task);
 
-		public Task<IEnumerable<Entry>> ListTasks();
+		public Task<IEnumerable<Entry>> ListTasksAsync();
 
-		public Task<Entry> GetEntry(int id);
+		public Task<Entry> GetEntryAsync(int id);
 	}
 }
 
