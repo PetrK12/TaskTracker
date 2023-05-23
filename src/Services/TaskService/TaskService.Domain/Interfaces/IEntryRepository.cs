@@ -3,7 +3,7 @@ using TaskService.Domain.DomainModel;
 
 namespace TaskService.Domain.Interfaces
 {
-	public interface ITaskRepository
+	public interface IEntryRepository
 	{
 		public Task<bool> CreateTask(Entry task);
 

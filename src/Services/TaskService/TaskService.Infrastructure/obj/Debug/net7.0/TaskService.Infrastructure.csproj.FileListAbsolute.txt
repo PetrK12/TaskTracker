@@ -1,0 +1,17 @@
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/bin/Debug/net7.0/TaskService.Infrastructure.deps.json
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/bin/Debug/net7.0/TaskService.Infrastructure.runtimeconfig.json
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/bin/Debug/net7.0/TaskService.Infrastructure.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/bin/Debug/net7.0/TaskService.Infrastructure.pdb
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/bin/Debug/net7.0/TaskService.Domain.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/bin/Debug/net7.0/TaskService.Domain.pdb
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/obj/Debug/net7.0/TaskService.Infrastructure.csproj.AssemblyReference.cache
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/obj/Debug/net7.0/TaskService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/obj/Debug/net7.0/TaskService.Infrastructure.AssemblyInfoInputs.cache
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/obj/Debug/net7.0/TaskService.Infrastructure.AssemblyInfo.cs
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/obj/Debug/net7.0/TaskService.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/obj/Debug/net7.0/TaskService.Infrastructure.csproj.CopyComplete
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/obj/Debug/net7.0/TaskService.Infrastructure.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/obj/Debug/net7.0/refint/TaskService.Infrastructure.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/obj/Debug/net7.0/TaskService.Infrastructure.pdb
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/obj/Debug/net7.0/TaskService.Infrastructure.genruntimeconfig.cache
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Infrastructure/obj/Debug/net7.0/ref/TaskService.Infrastructure.dll

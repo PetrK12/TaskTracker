@@ -1,0 +1,14 @@
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Application.deps.json
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Application.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Application.pdb
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.csproj.AssemblyReference.cache
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.AssemblyInfoInputs.cache
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.AssemblyInfo.cs
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.csproj.CoreCompileInputs.cache
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/refint/TaskService.Application.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.pdb
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/ref/TaskService.Application.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Application.runtimeconfig.json
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.genruntimeconfig.cache

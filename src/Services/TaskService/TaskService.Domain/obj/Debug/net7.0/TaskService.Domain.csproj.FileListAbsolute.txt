@@ -1,0 +1,12 @@
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/bin/Debug/net7.0/TaskService.Domain.deps.json
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/bin/Debug/net7.0/TaskService.Domain.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/bin/Debug/net7.0/TaskService.Domain.pdb
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/obj/Debug/net7.0/TaskService.Domain.csproj.AssemblyReference.cache
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/obj/Debug/net7.0/TaskService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/obj/Debug/net7.0/TaskService.Domain.AssemblyInfoInputs.cache
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/obj/Debug/net7.0/TaskService.Domain.AssemblyInfo.cs
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/obj/Debug/net7.0/TaskService.Domain.csproj.CoreCompileInputs.cache
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/obj/Debug/net7.0/TaskService.Domain.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/obj/Debug/net7.0/refint/TaskService.Domain.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/obj/Debug/net7.0/TaskService.Domain.pdb
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Domain/obj/Debug/net7.0/ref/TaskService.Domain.dll
