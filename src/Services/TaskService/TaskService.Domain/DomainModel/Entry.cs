@@ -1,11 +1,14 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace TaskService.Domain.DomainModel
 {
 	public class Entry
 	{
-		public string Name;
+		[Key]
+        public int Id { get; set; }
+        public string Name;
 		public string Description;
-		public int Id;
 		public DateTime DateCreated;
 		public DateTime DueDate;
 		public bool IsDone;

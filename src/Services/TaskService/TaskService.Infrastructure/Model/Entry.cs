@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using Microsoft.EntityFrameworkCore;
 
+[assembly: InternalsVisibleTo("Test")]
 namespace TaskService.Infrastructure.Model
 {
     public class Entry

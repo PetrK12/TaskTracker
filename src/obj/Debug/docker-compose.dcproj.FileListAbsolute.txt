@@ -23,10 +23,10 @@
 /Users/petr/Projects/TaskTracker/TaskTracker/src/TaskTracker/obj/Debug/docker-compose.dcproj.AssemblyReference.cache
 /Users/petr/Projects/TaskTracker/TaskTracker/src/TaskTracker/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
 /Users/petr/Projects/TaskTracker/TaskTracker/src/TaskTracker/obj/Debug/docker-compose.dcproj.CopyComplete
-/Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/appsettings.Development.json
-/Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/appsettings.json
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/TaskService.API.deps.json
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/TaskService.API.runtimeconfig.json
+/Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/appsettings.Development.json
+/Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/appsettings.json
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/TaskService.API
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/TaskService.API.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/TaskService.Infrastructure.dll
@@ -34,12 +34,12 @@
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/MediatR.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/TaskService.Application.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/TaskService.Domain.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/Swashbuckle.AspNetCore.Swagger.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/MediatR.Contracts.dll
-/Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/TaskService.Domain.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/AutoMapper.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/bin/Debug/Microsoft.EntityFrameworkCore.Abstractions.dll

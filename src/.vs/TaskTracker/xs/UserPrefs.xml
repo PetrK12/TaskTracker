@@ -1,45 +1,53 @@
-﻿<Properties StartupConfiguration="{F2D9535B-30E5-4B39-9621-9FAFF707F485}|Default">
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../Applications/Visual Studio.app/Contents/MonoBundle/AddIns/MonoDevelop.Docker/MSBuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets">
-    <Files>
-      <File FileName="Services/TaskService/TaskService.Application/Commands/CreateTaskCommandHandler.cs" Line="22" Column="75" />
-      <File FileName="Services/TaskService/TaskService.API/Dockerfile" />
-      <File FileName="Services/TaskService/TaskService.Application/Commands/CreateTaskCommand.cs" />
-      <File FileName="Services/TaskService/TaskService.Domain/DomainModel/Entry.cs" />
-      <File FileName="Services/TaskService/TaskService.Infrastructure/Repositories/EntryRepository.cs" />
-      <File FileName="Services/TaskService/TaskService.Infrastructure/AppDbContext/EntryContext.cs" />
-      <File FileName="Services/TaskService/TaskService.API/Controllers/TaskController.cs" />
-      <File FileName="Services/TaskService/TaskService.API/Program.cs" />
-      <File FileName="Services/TaskService/TaskService.Application/Extensions/ServiceRegistration.cs" />
-      <File FileName="Services/TaskService/TaskService.Application/Profiles/MappingProfiles.cs" />
-      <File FileName="Services/TaskService/TaskService.Infrastructure/Model/Entry.cs" />
-      <File FileName="Services/TaskService/TaskService.Infrastructure/Profiles/Profiles.cs" />
-      <File FileName="Services/TaskService/TaskService.Infrastructure/Extensions/ServiceRegistration.cs" />
-      <File FileName="docker-compose.yml" />
-      <File FileName="docker-compose.override.yml" />
-      <File FileName="../../../../../../Applications/Visual Studio.app/Contents/MonoBundle/AddIns/MonoDevelop.Docker/MSbuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets" Line="203" Column="27" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="TaskTracker" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{8939270C-B075-4943-A204-E63C86021F42}|http">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Více projektů" Name="Více projektů" />
+  </MultiItemStartupConfigurations>
   <DisabledProjects>
     <String>../Services/TaskService/TaskService.API/TaskService.API.csproj</String>
     <String>../Services/TaskService/TaskService.Application/TaskService.Application.csproj</String>
     <String>../Services/TaskService/TaskService.Domain/TaskService.Domain.csproj</String>
     <String>../Services/TaskService/TaskService.Infrastructure/TaskService.Infrastructure.csproj</String>
   </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Services.Task.TaskService.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/TaskService/TaskService.Infrastructure/Model/Entry.cs">
+    <Files>
+      <File FileName="Services/TaskService/TaskService.Infrastructure/Model/ApplicationUser.cs" />
+      <File FileName="Services/TaskService/TaskService.Infrastructure/Model/Entry.cs" Line="17" Column="42" />
+      <File FileName="Services/TaskService/TaskService.Infrastructure/AppDbContext/EntryContext.cs" />
+      <File FileName="Services/TaskService/TaskService.Infrastructure/Extensions/ServiceRegistration.cs" />
+      <File FileName="Services/TaskService/TaskService.API/Program.cs" />
+      <File FileName="Services/TaskService/TaskService.Domain/DomainModel/Entry.cs" />
+      <File FileName="Services/TaskService/TaskService.API/Controllers/AccountController.cs" />
+      <File FileName="Services/TaskService/TaskService.API/Controllers/TaskController.cs" />
+      <File FileName="Services/TaskService/TaskService.API/UserDto.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TaskTracker" expanded="True">
+            <Node name="Services" expanded="True">
+              <Node name="Task" expanded="True">
+                <Node name="TaskService.Infrastructure" selected="True" />
+              </Node>
+            </Node>
+            <Node name="docker-compose" expanded="True">
+              <Node name="docker-compose.yml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="TaskTracker" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApp.TaskManager PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Více projektů" Name="Více projektů" />
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.Services.TaskService.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

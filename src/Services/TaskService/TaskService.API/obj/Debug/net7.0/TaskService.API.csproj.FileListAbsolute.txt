@@ -85,3 +85,9 @@
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/obj/Debug/net7.0/TaskService.API.pdb
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/obj/Debug/net7.0/TaskService.API.genruntimeconfig.cache
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/obj/Debug/net7.0/ref/TaskService.API.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/bin/Debug/net7.0/Microsoft.Extensions.Options.dll

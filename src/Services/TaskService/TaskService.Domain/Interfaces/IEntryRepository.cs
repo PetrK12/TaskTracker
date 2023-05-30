@@ -9,9 +9,9 @@ namespace TaskService.Domain.Interfaces
 
 		public Task<bool> UpdateTaskAsync(Entry task);
 
-		public Task<bool> DeleteTaskAsync(Entry task);
+		public Task<bool> DeleteTaskAsync(int id);
 
-		public Task<IEnumerable<Entry>> ListTasksAsync();
+		public IEnumerable<Entry> ListTasksAsync();
 
 		public Task<Entry> GetEntryAsync(int id);
 	}

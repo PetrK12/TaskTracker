@@ -3,7 +3,9 @@
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Application.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Application.pdb
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Domain.dll
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Infrastructure.dll
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Domain.pdb
+/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Infrastructure.pdb
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.csproj.AssemblyReference.cache
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.GeneratedMSBuildEditorConfig.editorconfig
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.AssemblyInfoInputs.cache
@@ -15,5 +17,3 @@
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.pdb
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/TaskService.Application.genruntimeconfig.cache
 /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/obj/Debug/net7.0/ref/TaskService.Application.dll
-/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Infrastructure.dll
-/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.Application/bin/Debug/net7.0/TaskService.Infrastructure.pdb

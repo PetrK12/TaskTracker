@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using AutoMapper;
 using TaskService.Domain.DomainModel;
 using TaskService.Domain.Interfaces;
@@ -25,7 +26,7 @@ namespace TaskService.Infrastructure.Repositories
             return entity == null;
         }
 
-        public Task<bool> DeleteTaskAsync(Entry task)
+        public Task<bool> DeleteTaskAsync(int id)
         {
             throw new NotImplementedException();
         }
@@ -35,9 +36,9 @@ namespace TaskService.Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Entry>> ListTasksAsync()
+        public IEnumerable<Entry> ListTasksAsync()
         {
-            throw new NotImplementedException();
+            return (IEnumerable<Entry>)_context.entries.ToList();
         }
 
         public Task<bool> UpdateTaskAsync(Entry task)

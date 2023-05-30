@@ -1,14 +1,17 @@
 ﻿using System;
+using System.Net;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using TaskService.Application.Commands;
+using TaskService.Application.Commands.CreateTask;
+using TaskService.Application.Commands.DeleteTask;
+using TaskService.Application.Queries;
 using static System.Net.WebRequestMethods;
 
 namespace TaskService.API.Controllers
 {
-    [ApiController]
-    [Route("api/v1/[controller]")]
-    public class TaskController : ControllerBase
+	[ApiController]
+	[Route("api/v1/[controller]")]
+	public class TaskController : ControllerBase
 	{
 		private readonly IMediator _mediator;
 
@@ -17,13 +20,29 @@ namespace TaskService.API.Controllers
 			_mediator = mediator;
 		}
 
-		[HttpPost]
-		public async Task<ActionResult<bool>> CreateTask([FromBody] CreateTaskCommand cmd)
+		[HttpPost(Name = "CreateTask")]
+		[ProducesResponseType(typeof(bool), (int)HttpStatusCode.OK)]
+		public async Task<IActionResult> CreateTask([FromBody] CreateTaskCommand cmd)
 		{
-            await _mediator.Send(cmd);
-
-			return Ok();
+			var result = await _mediator.Send(cmd);
+			return Ok(result);
 		}
-	}
+
+		[HttpDelete("{id}",Name ="DeleteTask")]
+		[ProducesResponseType(typeof(bool), (int)HttpStatusCode.OK)]
+		public async Task<IActionResult> DeleteTask(int id)
+		{
+			var result = await _mediator.Send(new DeleteTaskCommand(id));
+			return Ok(result);
+		}
+
+        [HttpGet(Name = "ListTasks")]
+        [ProducesResponseType(typeof(bool), (int)HttpStatusCode.OK)]
+        public async Task<IActionResult> ListTask()
+        {
+            var result = await _mediator.Send(new ListTaskQuery());
+            return Ok(result);
+        }
+    }
 }
 

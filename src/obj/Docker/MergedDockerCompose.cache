@@ -1,6 +1,6 @@
 services:
-  taskdb:
-    container_name: taskdb
+  tasksdb:
+    container_name: tasksdb
     environment:
       ACCEPT_EULA: '"Y"'
       MSSQL_SA_PASSWORD: Wfd471Wfd471n9!
@@ -11,11 +11,13 @@ services:
     restart: always
   taskservice.api:
     build:
-      context: /Users/petr/Projects/TaskTracker/TaskTracker/src/TaskTracker
-      dockerfile: ../Services/TaskService/TaskService.API/Dockerfile
+      context: /Users/petr/Projects/TaskTracker/TaskTracker/src
+      dockerfile: Services/TaskService/TaskService.API/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:TaskConnectionString: Server=tasksdb;Database=taskdb;User
+        Id=sa;Password=Wfd471Wfd471n9!;TrustServerCertificate=True;
     image: taskservice
     ports:
-    - target: 11000
+    - target: 80
 version: '3.4'

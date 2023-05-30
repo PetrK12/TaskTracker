@@ -1,6 +1,6 @@
 services:
-  taskdb:
-    container_name: taskdb
+  tasksdb:
+    container_name: tasksdb
     environment:
       ACCEPT_EULA: '"Y"'
       MSSQL_SA_PASSWORD: Wfd471Wfd471n9!
@@ -11,8 +11,8 @@ services:
     restart: always
   taskservice.api:
     build:
-      context: /Users/petr/Projects/TaskTracker/TaskTracker/src/TaskTracker
-      dockerfile: ../Services/TaskService/TaskService.API/Dockerfile
+      context: /Users/petr/Projects/TaskTracker/TaskTracker/src
+      dockerfile: Services/TaskService/TaskService.API/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
         com.microsoft.visual-studio.project-name: TaskService.API
@@ -22,6 +22,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ConnectionStrings:TaskConnectionString: Server=tasksdb;Database=taskdb;User
+        Id=sa;Password=Wfd471Wfd471n9!;TrustServerCertificate=True;
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
       NUGET_FALLBACK_PACKAGES: ''
     image: taskservice:dev
@@ -32,11 +34,11 @@ services:
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     ports:
-    - target: 11000
+    - target: 80
     tty: true
     volumes:
     - /Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API:/app:rw
     - /Users/petr/vsdbg/vs2017u5:/remote_debugger:rw
     - /Users/petr/.nuget/packages:/root/.nuget/packages:ro
-    - /Users/petr/Projects/TaskTracker/TaskTracker/src/TaskTracker:/src:rw
+    - /Users/petr/Projects/TaskTracker/TaskTracker/src:/src:rw
 version: '3.4'
