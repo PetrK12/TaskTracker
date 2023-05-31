@@ -3,3 +3,5 @@
 *.dll
 src/Services/TaskService/TaskService.API/bin/Debug/net7.0/TaskService.API.pdb
 src/Services/TaskService/TaskService.API/bin/Debug/net7.0/TaskService.API.dll
+src/Services/TaskService/TaskService.API/bin/Debug/net7.0/TaskService.API.pdb
+*.pdb
