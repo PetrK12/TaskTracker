@@ -14,5 +14,6 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - "ConnectionStrings:TaskConnectionString=Server=tasksdb;Database=taskdb;User Id=sa;Password=Wfd471Wfd471n9!;TrustServerCertificate=True;"
+      - KEY=ffc424-4werfsd-saef3-srfi45
     ports:
       - "80"

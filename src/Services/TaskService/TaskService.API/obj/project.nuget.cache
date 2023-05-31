@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yazwNG0kKFByCleiX5baqmOOo6bgunNvwxjDRHI7tVj5OpR2wXmyGafwMtAVT864v+HvJZNxkok+9p3Y+mQ28g==",
+  "dgSpecHash": "nO/8h3Eof/zuLw7LgXge8NW1JIaQnKndcvo0QMs+vANI5wWbrokvQY3exQiSFmEGHiZJxPTP8r5r6HzwQdhUXg==",
   "success": true,
   "projectFilePath": "/Users/petr/Projects/TaskTracker/TaskTracker/src/Services/TaskService/TaskService.API/TaskService.API.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "/Users/petr/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.aspnetcore.authentication.cookies/2.2.0/microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "/Users/petr/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.5/microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.5/microsoft.aspnetcore.cryptography.internal.7.0.5.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/7.0.5/microsoft.aspnetcore.cryptography.keyderivation.7.0.5.nupkg.sha512",
     "/Users/petr/.nuget/packages/microsoft.aspnetcore.dataprotection/2.2.0/microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",

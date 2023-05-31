@@ -2,6 +2,7 @@
 using TaskService.Application.Extensions;
 using TaskService.API;
 using System.Reflection;
+using TaskService.API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,8 @@ builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
 builder.Services.AddAuthentication();
 builder.Services.AddAutoMapper(cfg => cfg.AddProfile(typeof(MappingProfiles)));
-
+builder.Services.ConfigureJwt(builder.Configuration);
+builder.Services.AddScoped<IAuthManager, AuthManager>();
 
 var app = builder.Build();
 
