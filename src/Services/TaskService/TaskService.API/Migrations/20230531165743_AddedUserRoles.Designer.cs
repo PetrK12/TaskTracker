@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TaskService.Infrastructure.AppDbContext;
 
@@ -11,9 +12,11 @@ using TaskService.Infrastructure.AppDbContext;
 namespace TaskService.API.Migrations
 {
     [DbContext(typeof(EntryContext))]
-    partial class EntryContextModelSnapshot : ModelSnapshot
+    [Migration("20230531165743_AddedUserRoles")]
+    partial class AddedUserRoles
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
