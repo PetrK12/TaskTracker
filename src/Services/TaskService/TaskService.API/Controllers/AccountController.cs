@@ -45,6 +45,8 @@ namespace TaskService.API.Controllers
 
                     return BadRequest(ModelState);
                 }
+
+				await _userManager.AddToRolesAsync(user, userDto.Roles);
 				return Ok(result);
             }
 			catch (Exception ex)
