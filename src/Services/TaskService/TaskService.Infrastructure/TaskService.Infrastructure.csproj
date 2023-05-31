@@ -16,7 +16,6 @@
   <ItemGroup>
     <Folder Include="Repositories\" />
     <Folder Include="AppDbContext\" />
-    <Folder Include="Model\" />
     <Folder Include="Extensions\" />
     <Folder Include="Profiles\" />
   </ItemGroup>

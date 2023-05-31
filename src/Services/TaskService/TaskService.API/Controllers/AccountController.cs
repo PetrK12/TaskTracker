@@ -1,5 +1,4 @@
-﻿using System;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TaskService.Infrastructure.Model;
@@ -14,12 +13,10 @@ namespace TaskService.API.Controllers
 		//private readonly SignInManager<ApplicationUser> _signInManager;
 		private readonly ILogger<AccountController> _logger;
 		private readonly IMapper _mapper;
-
-		public AccountController(UserManager<ApplicationUser> userManager, 
-            ILogger<AccountController> logger, IMapper mapper)
+		
+		public AccountController(UserManager<ApplicationUser> userManager, ILogger<AccountController> logger, IMapper mapper)
 		{
 			_userManager = userManager;
-			//_signInManager = signInManager;
 			_logger = logger;
 			_mapper = mapper;
 		}
@@ -37,7 +34,7 @@ namespace TaskService.API.Controllers
 			{
                 var user = _mapper.Map<ApplicationUser>(userDto);
 				user.UserName = user.Email;
-				var result = await _userManager.CreateAsync(user, user.PasswordHash);
+				var result = await _userManager.CreateAsync(user, userDto.Password);
 
 				if (!result.Succeeded)
 				{
